@@ -1,0 +1,32 @@
+# Переменные окружения и секреты
+.env
+
+# Виртуальное окружение
+venv/
+.venv/
+venv/
+ENV/
+
+# База данных
+*.db
+*.sqlite
+*.sqlite3
+
+# Логи
+bot.log
+bot_errors.log
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Редакторы и ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
